@@ -1,6 +1,6 @@
-const app = require('../app.js');
+const app = require('../app.js'); // Append this file to app.js
 
-const fs = require('fs');
+const fs = require('fs'); // Require the 'fs' module to read and write files from the file system
 const cors = require('cors'); // Require the 'cors' middleware
 
 // Middleware to enable CORS
