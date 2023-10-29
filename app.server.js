@@ -110,7 +110,7 @@ app.put('/users/:id', (req, res) => {
       // If the user is not found, return a 404 error response
       res.status(404).json({ error: 'user not found' });
     }
-  });
+});
 
 
 // DELETE - Remove an existing user by ID
@@ -141,7 +141,10 @@ app.delete('/users/:id', (req, res) => {
       // If the user is not found, return a 404 error response
       res.status(404).json({ error: 'user not found' });
     }
-  });
+});
+
+
+module.exports = app;
 
 
 app.listen(port, () => {
