@@ -1,62 +1,102 @@
 [
   {
     "id": 1,
-    "username": "user1",
-    "password": "password1",
-    "email": "user1@example.com"
+    "firstName": "Alice",
+    "lastName": "Smith",
+    "password": "password123",
+    "email": "alice.smith@example.com",
+    "phoneNumber": "1234567890",
+    "birthday": "05/12/1990",
+    "gender": "female"
   },
   {
     "id": 2,
-    "username": "user2",
-    "password": "password2",
-    "email": "user2@example.com"
+    "firstName": "Bob",
+    "lastName": "Johnson",
+    "password": "securePass",
+    "email": "bob.johnson@example.com",
+    "phoneNumber": "9876543210",
+    "birthday": "12/15/1985",
+    "gender": "male"
   },
   {
     "id": 3,
-    "username": "user3",
-    "password": "password3",
-    "email": "user3@example.com"
+    "firstName": "Eva",
+    "lastName": "Brown",
+    "password": "eva@1234",
+    "email": "eva.brown@example.com",
+    "phoneNumber": "4567890123",
+    "birthday": "03/20/1995",
+    "gender": "female"
   },
   {
     "id": 4,
-    "username": "user4",
-    "password": "password4",
-    "email": "user4@example.com"
+    "firstName": "David",
+    "lastName": "Johnson",
+    "password": "davidPass",
+    "email": "david.j@example.com",
+    "phoneNumber": "7890123456",
+    "birthday": "08/08/1980",
+    "gender": "male"
   },
   {
     "id": 5,
-    "username": "user5",
-    "password": "password5",
-    "email": "user5@example.com"
+    "firstName": "Grace",
+    "lastName": "Wilson",
+    "password": "gracePass",
+    "email": "grace@example.com",
+    "phoneNumber": "2345678901",
+    "birthday": "11/03/1992",
+    "gender": "female"
   },
   {
     "id": 6,
-    "username": "user6",
-    "password": "password6",
-    "email": "user6@example.com"
+    "firstName": "Michael",
+    "lastName": "Davis",
+    "password": "mike@1987",
+    "email": "michael@example.com",
+    "phoneNumber": "8901234567",
+    "birthday": "02/28/1987",
+    "gender": "male"
   },
   {
     "id": 7,
-    "username": "user7",
-    "password": "password7",
-    "email": "user7@example.com"
+    "firstName": "Olivia",
+    "lastName": "Johnson",
+    "password": "oliviaPass",
+    "email": "olivia@example.com",
+    "phoneNumber": "3456789012",
+    "birthday": "07/14/1998",
+    "gender": "female"
   },
   {
     "id": 8,
-    "username": "user8",
-    "password": "password8",
-    "email": "user8@example.com"
+    "firstName": "Thomas",
+    "lastName": "Anderson",
+    "password": "thomasPass",
+    "email": "thomas@example.com",
+    "phoneNumber": "0123456789",
+    "birthday": "04/22/1982",
+    "gender": "male"
   },
   {
     "id": 9,
-    "username": "user9",
-    "password": "password9",
-    "email": "user9@example.com"
+    "firstName": "Sophia",
+    "lastName": "Williams",
+    "password": "sophia@5678",
+    "email": "sophia@example.com",
+    "phoneNumber": "9012345678",
+    "birthday": "09/29/1991",
+    "gender": "female"
   },
   {
     "id": 10,
-    "username": "user10",
-    "password": "password10",
-    "email": "user10@example.com"
+    "firstName": "William",
+    "lastName": "Smith",
+    "password": "willPass123",
+    "email": "william@example.com",
+    "phoneNumber": "4567890123",
+    "birthday": "06/18/1988",
+    "gender": "male"
   }
 ]
