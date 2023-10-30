@@ -1,6 +1,9 @@
-const app = require('../app.js'); // Append this file to app.js
+const express = require('express');
+const app = express(); // Change app to express
 
-const fs = require('fs'); // Require the 'fs' module to read and write files from the file system
+app.use(express.json());
+
+const fs = require('fs');
 const cors = require('cors'); // Require the 'cors' middleware
 
 // Middleware to enable CORS
@@ -77,6 +80,7 @@ app.post('/users', (req, res) => {
   });
 });
 
+
 // PUT - Update an existing user by ID
 app.put('/users/:id', (req, res) => {
     const userId = parseInt(req.params.id, 10);
@@ -138,3 +142,5 @@ app.delete('/users/:id', (req, res) => {
       res.status(404).json({ error: 'user not found' });
     }
 });
+
+module.exports = app; 

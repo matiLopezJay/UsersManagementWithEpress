@@ -1,5 +1,5 @@
 {
-  "name": "ApiUsers", 
+  "name": "ApiUsers",
   "version": "1.0.0",
   "description": "Instructions:",
   "main": "app.server.js",

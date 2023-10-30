@@ -34,7 +34,10 @@ npm install
 
 ## Running the Application
 
-To start the application, you have two options: production or development mode.
+6. To start the server in development mode using Nodemon, run: `npm run devstart`
+
+API Endpoints:
+--------------
 
 ### Production Mode
 
