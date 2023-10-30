@@ -1,12 +1,12 @@
-const express = require('express');
-const router = express.Router();
-const userController = require('../app.controllers/controller.users'); // Adjust the path to your userController file
+// const express = require('express');
+// const router = express.Router();
+// const userController = require('../app.controllers/controller.users'); // Adjust the path to your userController file
 
-// Define your user routes
-router.put('/users/:id', userController);
-router.get('/users', userController);
-router.get('/users/:id', userController);
-router.delete('/users/:id', userController);
-router.post('/users', userController);
+// // Define your user routes
+// router.put('/:id', userController);
+// router.get('/', userController);
+// router.get('/:id', userController);
+// router.delete('/:id', userController);
+// router.post('/', userController);
 
-module.exports = router;
+// module.exports = router;

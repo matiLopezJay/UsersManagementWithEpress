@@ -7,9 +7,8 @@ const cors = require('cors'); // Import the cors package
 app.use(cors());
 
 // Import your user routes
-const userRoutes = require('./app.routes/route.users.js');
-app.use('/api', userRoutes); // You can specify a base route like "/api" if needed
-
+// const userRoutes = require('./app.routes/route.users.js');
+// app.use('/users', userRoutes); // You can specify a base route like "/api" if needed
 
 // Use the userController as middleware
 app.put('/users/:id', userController); // You can specify a base route like "/api" if needed
